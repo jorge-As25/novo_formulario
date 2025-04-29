@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-login" action="../php/cadastrar_usuario.php" method="POST">
+                <h3>Etec</h3>
+
+                <input type="text" name="nome" placeholder="Nome:" id="nome" required="true" minlength="3" maxlength="35">
+
+                <input type="email" name="email" placeholder="Email:" id="email" required="true" minlength="3" maxlength="50">
+
+                <input type="text" name="usuario" placeholder="Usuario:" id="usuario" required="true" minlength="3" maxlength="35">
+
+                <input type="password" name="senha" placeholder="Senha:" id="senha" required="true" minlength="3" maxlength="8">
+                
+                <input type="submit" value="Entrar" >
+                <br>
+                
+            </form>
+            <a href="../index.html">não tem conta? Cadastre-se</a>
+
+        </div>
+    </div>
+    
+</body>
+</html>

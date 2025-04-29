@@ -1,0 +1,35 @@
+<html>
+     <!--HEAD 
+        Configurações que nossa tela irá utilizar, por exemplo
+        se existem arquivos de estilização usados, arquivos de programação, encoding utilizado-->
+    <head>
+        <title>Tela de Login</title>
+        <!--Seta o unicode do site para o padrão BR-->
+        <meta charset="UTF-8"/>
+        
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+        <script src="./js/index.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+    <body>
+        <div class="container-principal">
+            <div class="formulario">
+                <form id="form-login" action="./php/login.php" method="POST">
+                    <h3>Etec</h3>
+                    
+                    <input type="text" placeholder="Usuário:" id="usuario" required="true" minlength="3" maxlength="15"/>
+
+                    <input type="password" placeholder="Senha:" id="senha" required="true" minlength="4" maxlength="15"/>
+                    
+                    <input type="submit" value="Entrar" >
+                    <br>
+                    
+                </form>
+                <a href="./html/cadastrar_usuario.html">não tem conta? Cadastre-se</a>
+
+            </div>
+        </div>
+    </body>
+</html>

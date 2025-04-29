@@ -1,0 +1,52 @@
+/**/
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #6e7072;
+}
+
+.formulario{
+    background-color:  #e0c422;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgb(113, 117, 119);
+    width: 300px;
+}
+
+form h3{
+text-align: center;
+margin-bottom: 20px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color:black ;
+}
+
+input[type="text"],input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid rgb(3, 14, 26);
+    border-radius: 8px;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+input[type = "submit"]{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(235, 153, 77);
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+input[type="submit"]:hover{
+    background-color: #c1c4c5;
+
+}
+
+
